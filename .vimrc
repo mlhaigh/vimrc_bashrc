@@ -87,4 +87,9 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
+"Horizontal line at 80 characters
 set colorcolumn=80
+
+"Backspace behaves as expected on Windows
+set backspace=2
+set backspace=indent,eol,start
